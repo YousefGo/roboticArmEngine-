@@ -209,9 +209,9 @@
             @if (session()->exists('message'))
         
             <div class="row">
-                <h6 class="text-warning mx-auto"> 
+                <h4 class="text-primary mx-auto"> 
                     {{__('ui.updated')}}    
-                </h6>
+                </h4>
             </div>
 
                   
@@ -221,10 +221,10 @@
               @if (session()->exists('msg'))
               <div class="row">
           
-              <h6 class="text-warning mx-auto mt-2"> 
+              <h4 class="text-warning mx-auto mt-2"> 
 
                   {{__('ui.run')}} {{$en['status']}}    
-              </h6>
+              </h4>
             </div>
                 
             @endif
