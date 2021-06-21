@@ -11,7 +11,6 @@
 *{
     margin:0 ;  
     padding:0 ;
-    overflow-x: hidden;
 }
 .darkBlue{
     background-color: #03256C;
@@ -131,4 +130,5 @@ input[type=range] {
     font-size: 28px;
     font-family:monospace;
     text-shadow:  3px 3px #03256C;
+    height: 40px;
   }

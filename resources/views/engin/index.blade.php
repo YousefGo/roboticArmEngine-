@@ -34,18 +34,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-       
-
-            <li class="nav-item active ">
-                <a class="dropdown-item" href="{{route('engine.showarabic')}}"> عربي </a>
+        <div class="collapse navbar-collapse m-2" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" style="">
+             
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> English</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown09">
+                    <a class="dropdown-item"  href="{{route('engine.showarabic')}}"><span class="flag-icon flag-icon-fr"> </span>  عربي </a>
+                    <a class="dropdown-item"href="{{route('engine.index','en')}}"><span class="flag-icon flag-icon-it"> </span>  English</a>
+                </div>
             </li>
 
-
-            <li class="nav-item active">
-                <a class="dropdown-item" href="{{route('engine.index','en')}}">EN</a>
-            </li>
+           
         
           </ul>
         
@@ -58,39 +58,18 @@
 
      
 
-        <div class="col-md-12  m-1 p-1 mt-4 text-center">
-            <h3 class="text-light m">
+        <div class="col-md-12  p-1 text-center m-2" >
+          
                 <span>
 
                     <i class=" fas fa-solid fa-robot text-primary head">
-                       
                         {{__('ui.title')}}
-                        @if (session()->exists('message'))
-                    
-                      
-                            <h6 class="text-warning mx-auto"> 
-                                {{__('ui.updated')}}    
-                            </h6>
-                       
-                              
-                          @endif
-
-
-                          @if (session()->exists('msg'))
-                    
-                      
-                          <h6 class="text-warning mx-auto mt-2"> 
-
-                              {{__('ui.run')}} {{$en['status']}}    
-                          </h6>
                      
-                            
-                        @endif
                    
                     </i>
                 </span>
 
-            </h3>
+          
 
 
         </div>
@@ -225,33 +204,63 @@
         </div>
         <div class="col-md-2"></div>
         </div>
+      
+    
+            @if (session()->exists('message'))
+        
+            <div class="row">
+                <h6 class="text-warning mx-auto"> 
+                    {{__('ui.updated')}}    
+                </h6>
+            </div>
+
+                  
+              @endif
+
+
+              @if (session()->exists('msg'))
+              <div class="row">
+          
+              <h6 class="text-warning mx-auto mt-2"> 
+
+                  {{__('ui.run')}} {{$en['status']}}    
+              </h6>
+            </div>
+                
+            @endif
         <div class="row d-flex justify-content-center mt-1 ">
             <input type="hidden" name="status"  value="{{$en->status}}"/>
 
-               
-                    <button type="submit" class="btn btn-primary mb-1 col-md-6  btn-block  w-25  btn-sm border border-light border-3 m-1 h-50">
+          
+
+                <button type="submit" class="btn btn-primary m-1 col-md-2      btn-sm border border-light border-3  h-50">
+                    <span>
+                        <i class=" fas fa-solid fa-server text-light p-1"> {{__('ui.saveBtn')}} </i>
+                    </span>
+                </button>
+              
+             
+                    <button type="submit" name="st"  value="{{$en->status}}"
+                        class="btn btn-warning mb-4  m-1  col-md-2 btn-sm border border-warning border-3 h-50">
+        
                         <span>
-                            <i class=" fas fa-solid fa-server text-light p-1"> {{__('ui.saveBtn')}} </i>
+                            <i class="fa-solid fas fa-play text-dark p-1">
+                                {{__('ui.runBtn')}}
+                                @if ($en->status=='on')
+                                   {{'OFF'}}
+                                @else
+                                {{'ON'}}
+    
+                                @endif
+                            </i>
+        
                         </span>
                     </button>
 
+                
 
-                    <button type="submit" name="st"  value="{{$en->status}}"
-                    class="btn btn-warning mb-4  btn-block  w-25  col-md-6 btn-sm border border-warning border-3 h-50">
-    
-                    <span>
-                        <i class="fa-solid fas fa-play text-dark p-1">
-                            {{__('ui.runBtn')}}
-                            @if ($en->status=='on')
-                               {{'off'}}
-                            @else
-                            {{'on'}}
-
-                            @endif
-                        </i>
-    
-                    </span>
-                </button>
+                 
+        </div>
 
                     
           
