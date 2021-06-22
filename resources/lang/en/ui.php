@@ -16,6 +16,6 @@ return [
     'updated'=>'Engines have been updated',
     'styledir'=>'ltr;',
     'lang'=>'en',
-    'run'=>'robot in mode '
+    'run'=>'robot is '
 ]
 ?>

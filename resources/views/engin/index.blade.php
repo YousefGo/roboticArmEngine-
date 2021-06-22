@@ -84,9 +84,9 @@
                 @if (session()->exists('message'))
         
                 <div class="row">
-                    <h4 class="text-primary mx-auto"> 
+                    <label class="text-primary mx-auto"> 
                         {{__('ui.updated')}}    
-                    </h4>
+                    </label>
                 </div>
     
                       
@@ -96,10 +96,10 @@
                   @if (session()->exists('msg'))
                   <div class="row">
               
-                  <h4 class="text-warning mx-auto mt-2"> 
+                  <label class="text-warning mx-auto mt-2"> 
     
-                      {{__('ui.run')}} {{$en['status']}}    
-                  </h4>
+                      {{__('ui.run')}} <span class="bg-warning text-dark text-uppercase"> {{$en['status']}} </span>    
+                  </label>
                 </div>
                     
                 @endif      
