@@ -15,13 +15,16 @@
 .darkBlue{
     background-color: #03256C;
 }
+.black{
+  background-color: #010101;
+}
 .ml-10{
 margin-left:10px;
 }
 
 input[type=range] {
     -webkit-appearance: none;
-    margin: 18px 0;
+    margin: 0;
     width: 100%;
     height: 20px;
     background-color:#03256C ;
@@ -132,3 +135,9 @@ input[type=range] {
     text-shadow:  3px 3px #03256C;
     height: 40px;
   }
+
+  tr,th,td {
+    line-height: 18px;
+    min-height: 18px;
+    height: 18px;
+ }
