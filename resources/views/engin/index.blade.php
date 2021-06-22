@@ -106,15 +106,17 @@
             </th>
               <th class="text-light">{{__('ui.thd3')}}  </th>
                 </tr>
-            
-               <td>  <label class=" og  w-100 "> <i class="fas fa-cog "> &nbsp  {{__('ui.en1')}}</i> </label></td>
-               <td>   <input type="range" step='0.1' name="engineN1" class="pointss   "  value={{$en->engineN1}}
-                oninput="changevalue3(0); " min="0" max="180" ></td>
-               <td>                 <label class="ps3 og   w-100    text-light" value='{{$en->engineN1}}'>{{$en->engineN1}}</label>
-               </td>
+          
+
+                <tr>
+                  <td> <label class=" og  w-100  "> <i class="fas fa-cog "> &nbsp  {{__('ui.en1')}}</i>  </td>
+                  <td>  <input type="range" name="engineN1" class="pointss w-100 " name="points" value={{$en->engineN1}}
+                    oninput="changevalue3(0); " min="0" max="180">  </td>
+                  <td>             <label class="ps3 og   w-100     text-light"value={{$en->engineN1}}>{{$en->engineN1}}</label>
+                  </td>
     
-      
-                </tr>
+                  </tr>
+
 
               <tr>
               <td> <label class=" og  w-100  "> <i class="fas fa-cog "> &nbsp  {{__('ui.en2')}}</i>  </td>
