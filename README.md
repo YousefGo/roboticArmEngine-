@@ -43,16 +43,10 @@ UI ARABIC  :
 
 ![Screenshot (171)](https://user-images.githubusercontent.com/38506780/122871343-869c8a00-d337-11eb-8299-b1ceaa37217e.png)
     
-    ![Screenshot (173)](https://user-images.githubusercontent.com/38506780/122871354-8a301100-d337-11eb-9488-65605b5b784e.png)
+![Screenshot (173)](https://user-images.githubusercontent.com/38506780/122871653-0165a500-d338-11eb-84f8-8d3a7333e9f4.png)
+    <H1> DATABASE </H1>
 
-
-UI Engllish: 
-
-
-Update : 
-
-Turn ON : 
-
-Turn Off: 
+![Screenshot (171)](https://user-images.githubusercontent.com/38506780/122871948-69b48680-d338-11eb-85ee-f7d542ac8343.png)
+![Screenshot (170)](https://user-images.githubusercontent.com/38506780/122871962-6f11d100-d338-11eb-8379-7908565414c7.png)
 
 
