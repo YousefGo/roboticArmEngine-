@@ -10,6 +10,7 @@ So it Consist from Two module : </p>
 <ul>
     <li>Html ,CSS , Javascirpt ,<strong>Bootstarp</strong> for my front end parts . </li>
     <li>Php , Mysql , <strong> Laravel </strong> framworks . </li>
+    <li> with MVC desinge patren </li>
 <ul>
 
 <hr>
