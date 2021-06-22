@@ -40,9 +40,11 @@ UI ARABIC  :
 ![Screenshot (169)](https://user-images.githubusercontent.com/38506780/122871295-77b5d780-d337-11eb-9577-749db723f8c4.png)
 ![Screenshot (170)](https://user-images.githubusercontent.com/38506780/122871302-797f9b00-d337-11eb-992d-fc86c3076db1.png)
 ![Screenshot (172)](https://user-images.githubusercontent.com/38506780/122871349-88fee400-d337-11eb-84b4-cc063e9c7b4c.png)
-![Screenshot (173)](https://user-images.githubusercontent.com/38506780/122871354-8a301100-d337-11eb-9488-65605b5b784e.png)
 
 ![Screenshot (171)](https://user-images.githubusercontent.com/38506780/122871343-869c8a00-d337-11eb-8299-b1ceaa37217e.png)
+    
+    ![Screenshot (173)](https://user-images.githubusercontent.com/38506780/122871354-8a301100-d337-11eb-9488-65605b5b784e.png)
+
 
 UI Engllish: 
 
