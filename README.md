@@ -6,14 +6,12 @@ So it Consist from Two module : </p>
     <li>	One webpage (User interface ) angles Forms , and button to switch on/off robot .</li>
     <li>Database contains one table , Engines  Table  .</li> 
     <li>
-    <b> Exta Feture</b> 
-        <ol>
+  Exta Feture
+        <ul>
             <li> mobile  Responsive layout  </li>
             <li>         Support Arabic - English Languge </li>
 
-        </ol>
-
-    <li>
+    
 </ul>    
 <h2> So I used  below tech </h2>
 <ul>
