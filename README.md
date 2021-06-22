@@ -1,11 +1,17 @@
-Robotic Engine Arm Website (Task 1)
+<h1>Robotic Engine Arm Website (Task 1)</h1>
+<p>
 The Goal of this task to build website , can set a engine angle values and Turn on – Turn Off the robot. 
-So it Consist from Two module : 
-1-	One webpage (User interface ) angles Forms , and button to switch on/off robot .
-2-	Database contains one table , Engines  Table . 
-So I used  below tech . 
-1-	Html ,CSS , Javascirpt ,Bootstarp for my front end parts 
-2-	Php , Mysql , Laravel framworks . 
+So it Consist from Two module : </p>
+<ul>
+    <li>	One webpage (User interface ) angles Forms , and button to switch on/off robot .</li>
+    <li>Database contains one table , Engines  Table .</li> 
+</ul>    
+<h2> So I used  below tech </h2>
+<ul>
+    <li>Html ,CSS , Javascirpt ,<strong>Bootstarp</strong> for my front end parts  </li>
+    <li>Php , Mysql , Laravel framworks </li>
+<ul>
+
 
 The scenario off app: 
 The user enter to website , using get method , from route , and show the forms page ,with ability 
