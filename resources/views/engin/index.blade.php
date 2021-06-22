@@ -79,8 +79,7 @@
             <table class="table black  text-center  ">
                 <tr>
               <th class="text-light"> {{__('ui.thd1')}}</th>
-              <th>  
-                  
+              <th> 
                  
                 @if (session()->exists('message'))
         
@@ -103,9 +102,8 @@
                   </h4>
                 </div>
                     
-                @endif
-            
-              </th>
+                @endif      
+            </th>
               <th class="text-light">{{__('ui.thd3')}}  </th>
                 </tr>
             
@@ -178,6 +176,7 @@
 
 
 
+                        <input type="hidden" name="status" value='{{$en->status}}'/>
 
                         <input type="hidden" name="lang" value='{{__('ui.lang')}}'/>
 

@@ -26,7 +26,7 @@ class EngineController extends Controller
 
     public  function update(Request $req){
         $en =Engin::find(1);
-       
+
         if(isset($req->st)){
             if($req['status']=='on'){
                 
