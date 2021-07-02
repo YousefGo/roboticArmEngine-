@@ -64,6 +64,11 @@
 
     </div>
 
+    <script> 
+    $("#left").click(function(){
+        alert('left');
+    });
+   </script>
 
 
 

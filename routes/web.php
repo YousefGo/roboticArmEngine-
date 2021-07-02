@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EngineController;
-
+use App\Http\Controllers\baseController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,8 +19,8 @@ use App\Http\Controllers\EngineController;
 // });
 Route::get('/arm/ar',[EngineController::class,'showArabic'])->name('engine.showarabic');
 Route::get('/arm/{lang}',[EngineController::class,'showEngine'])->name('engine.index');
-Route::get('/baseControl',function(){
-    return view('engin.base');
-});
+
+Route::view('/baseControl','engin.base');
+Route::post('addMove',[baseController::class,'addMove'])->name('engine.addMove');
 Route::post('/storeengine',[EngineController::class,'update'])->name('store.engine');
 
