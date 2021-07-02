@@ -17,7 +17,10 @@ use App\Http\Controllers\EngineController;
 // Route::get('/', function () {
 //     return view('engin.index');
 // });
-Route::get('/',[EngineController::class,'showArabic'])->name('engine.showarabic');
-Route::get('/{lang}',[EngineController::class,'showEngine'])->name('engine.index');
+Route::get('/arm/ar',[EngineController::class,'showArabic'])->name('engine.showarabic');
+Route::get('/arm/{lang}',[EngineController::class,'showEngine'])->name('engine.index');
+Route::get('/baseControl',function(){
+    return view('engin.base');
+});
 Route::post('/storeengine',[EngineController::class,'update'])->name('store.engine');
 
